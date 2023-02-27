@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #071b25 url(https://www.runescape.com/l=3/img/rs3/background-main.jpg) repeat 0 0;
+}
+
+header,
+section h2,
+section h3 {
+    font-family: 'MedievalSharp';
+}
+
+body, input, form button {
+    font-family: 'MuseoModerno';
+}
+
+header {
+    padding: 10px 20px;
+    background-image: url('https://www.runescape.com/l=3/img/rs3/background-content-top.jpg');
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 10px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section h3 {
+    margin-bottom: 12px;
+}
+
+section {
+    color: rgb(255, 255, 255)
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.nomad-pic {
+    margin-right: 32px;
+}
+
+.download-list img {
+    height: 32px;
+    filter: invert(100%);
+}
+
+.download-list li {
+    display: inline;
+}
+
+.download-list li a {
+    text-decoration: none;
+}
+
+#register .container {
+    display: block;
+    text-align: center;
+}
+
+.login-info {
+    display: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+form input,
+button {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    cursor: pointer;
+    border-color: #fff;
+}
+
+form button:hover {
+    background-color: #071b25;
+    color: #fff;
+}
+
+
+footer {
+    background-image: url('https://www.runescape.com/l=3/img/rs3/background-content-top.jpg');
+    color: #fff;
+    padding: 16px 10px;
+}
